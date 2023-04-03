@@ -238,6 +238,16 @@
 
 }
 
+/* Media Query for macbook air */
+@media (min-width: 1280px) {
+
+  //footer section
+  .footer {
+      margin-top: 4.7%;
+  }
+  //end of footer section
+}
+
 /* Media Query for macbook Pro  15 */
 @media (min-width: 1440px) {
 

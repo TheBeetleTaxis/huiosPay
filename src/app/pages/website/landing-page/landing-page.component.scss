@@ -21,7 +21,7 @@
   }
 
 
-  //background 
+  //background
   .img {
     img {
       max-width: 100%;
@@ -574,7 +574,7 @@
     }
 
 
-    //background 
+    //background
     .img {
       background-image: url("../../../../assets/img/map.svg");
       height: 80vh;
@@ -1011,7 +1011,7 @@
     }
 
 
-    //background 
+    //background
     .img {
       background-image: url("../../../../assets/img/map.svg");
       height: 80vh;
@@ -1450,7 +1450,7 @@
     }
 
 
-    //background 
+    //background
     .img {
       background-image: url("../../../../assets/img/map.svg");
       height: 80vh;
@@ -1957,6 +1957,46 @@
     }
 
     //end of huiospay safe train section
+
+  }
+
+}
+
+/* Media Query for macbook air */
+@media (min-width: 1280px) {
+  .container {
+
+    //map section
+    .overlay {
+
+      .overlay-left {
+
+        .bold-text {
+          h2 {
+            font-size: 50px;
+            font-weight: 600;
+          }
+        }
+
+        .btn {
+          button {
+            padding: 8px 40px;
+            border-radius: 18px;
+            font-size: 22px;
+
+          }
+
+        }
+      }
+
+      .overlay-right {
+        img {
+          margin-top: 8.9rem;
+        }
+      }
+    }
+
+    //end of map section
 
   }
 
